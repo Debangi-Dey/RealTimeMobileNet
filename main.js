@@ -21,7 +21,7 @@ function gotResults(error, results){
  }
  else {
    console.log(results);
-   document.getElementById("obj").innerHTML=result[0].label;
-   document.getElementById("acc").innerHTML=result[0].confidence.toFixed(3);
+   document.getElementById("obj").innerHTML=results[0].label;
+   document.getElementById("acc").innerHTML=results[0].confidence.toFixed(3);
  }
 }
